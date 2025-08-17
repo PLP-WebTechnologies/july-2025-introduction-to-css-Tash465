@@ -1,0 +1,109 @@
+/* ============================================
+   Fur, Fins & Friends Pet Store - styles.css
+   Just keeping things neat and friendly
+   ============================================ */
+
+/* Reset the page defaults so it’s easier to style */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main body styles */
+body {
+    font-family: Verdana, Arial, sans-serif; /* simple font */
+    background-color: #fdfdfd; /* white */
+    color: #333; /* dark gray */
+    line-height: 1.6; 
+    margin: 20px;
+}
+
+/* --------------------------
+   HEADER
+   -------------------------- */
+header {
+    background-color: #fffbec;  /* cream */
+    padding: 20px;
+    border: 2px solid #f6c453;  /* gold */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #e67a00; /* orange */
+}
+
+header p {
+    font-style: italic;
+    color: #555; /* medium gray */
+}
+
+/* --------------------------
+   NAVIGATION
+   -------------------------- */
+nav {
+    background-color: #d8f3dc; /* green */
+    padding: 12px;
+    border: 1px solid #95d5b2; /* lighter green */
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #064420; /* dark green */
+    margin: 0 12px;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    font-weight: bold;
+}
+
+nav a:hover {
+    border: 1px solid #2d6a4f; /* darker green */
+    background-color: #b7e4c7; /* light green */
+    border-radius: 5px;
+}
+
+/* --------------------------
+   SECTIONS
+   -------------------------- */
+section {
+    background-color: #ffffff; /* white */
+    padding: 18px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* gray */
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.05);
+}
+
+section h2 {
+    color: #2a9d8f; /* teal */
+    margin-bottom: 10px;
+}
+
+section ul {
+    margin-left: 20px;
+}
+
+/* --------------------------
+   CONTACT INFO
+   -------------------------- */
+address {
+    background-color: #fff6e6; /* peach */
+    padding: 12px;
+    border-left: 5px solid #f4a261; /* orange */
+    margin-top: 10px;
+}
+
+/* --------------------------
+   FOOTER
+   -------------------------- */
+footer {
+    background-color: #2a9d8f; /* teal */
+    text-align: center;
+    padding: 12px;
+    margin-top: 20px;
+    border-top: 3px solid #e67a00; /* orange */
+    color: #fff; /* white */
+}
